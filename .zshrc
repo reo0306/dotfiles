@@ -14,7 +14,8 @@ fi
 
 export CLICOLOR=1
 export TERM=xterm-256color
-export PATH=/opt/homebrew/bin:$PATH
+
+alias ls="ls --color=auto"
 
 autoload -Uz promptinit
 prompt pure
